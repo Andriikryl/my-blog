@@ -11,7 +11,7 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://Andrii-blog.netlify.app',
+  site: 'https://andrii-kryliuk-blog.netlify.app',
   integrations: [image({
     serviceEntryPoint: '@astrojs/image/sharp'
   }), sitemap(), react()]
