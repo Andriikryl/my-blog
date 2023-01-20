@@ -199,6 +199,7 @@ body {
   max-width: var(--content-xs);
 }
 
+
 h1 span {
   color: hsl(var(--accent));
 }
@@ -346,6 +347,9 @@ button {
 
 
 .navbar {
+  position: fixed;
+  background-color: rgba(100, 100, 100, 0.1);
+  backdrop-filter: blur(10px);
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   transition: transform ease .5s, box-shadow ease .5s;
   display: flex;
@@ -603,7 +607,7 @@ header {
   gap: 5px;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  margin-block: 20px;
 
   & li {
     display: grid;
@@ -645,7 +649,7 @@ header {
 /* blogroll__box */
 
 .blogroll__box{
-  margin-block-start: 40px;
+  margin-block-start: 100px;
   display: flex;
   overflow: hidden;
   user-select: none;
@@ -711,6 +715,10 @@ footer{
   border-radius: 10px;
 }
 
+aside{
+  margin-block: 20px;
+  padding-block: 20px;
+}
 
 
 
